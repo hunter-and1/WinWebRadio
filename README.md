@@ -1,2 +1,2 @@
 # WinWebRadio
-Win Web Radio
+Mobile application WinWebRadio
