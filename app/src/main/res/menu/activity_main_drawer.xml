@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_accueil"
+            android:icon="@drawable/ic_menu_accueil"
+            android:title="@string/menu_accueil_up" />
+        <item
+            android:id="@+id/nav_emission"
+            android:icon="@drawable/ic_menu_emission"
+            android:title="@string/menu_emission_up" />
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/ic_menu_chat"
+            android:title="@string/menu_chat_up" />
+        <item
+            android:id="@+id/nav_rate"
+            android:icon="@drawable/ic_menu_rate"
+            android:title="@string/menu_rate_up" />
+        <item
+            android:id="@+id/nav_partage"
+            android:icon="@drawable/ic_menu_partage"
+            android:title="@string/menu_partage_up" />
+        <item
+            android:id="@+id/nav_propos"
+            android:icon="@drawable/ic_menu_propos"
+            android:title="@string/menu_propos_up" />
+    </group>
+</menu>

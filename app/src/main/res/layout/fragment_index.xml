@@ -1,0 +1,184 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.wicoding.winwebradio.IndexFragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_main"
+        android:layout_weight="1.45">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/imgtop"
+            android:scaleType="fitCenter" />
+
+        <ImageButton
+            android:id="@+id/imageBtnPlay"
+            android:tag="play"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/wi_play"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:scaleType="fitXY"
+            android:layout_width="90dp"
+            android:layout_height="90dp" />
+
+        <ImageButton
+            android:layout_width="65dp"
+            app:srcCompat="@drawable/ic_phonecall"
+            android:id="@+id/btnTel"
+            android:background="@drawable/btn_p1"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="30dp"
+            android:layout_height="65dp"
+            android:padding="10dp"
+            android:alpha="0.7" />
+
+        <ImageButton
+            app:srcCompat="@drawable/wordpress"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="100dp"
+            android:id="@+id/btnWeb"
+            android:scaleType="centerCrop"
+            android:padding="3dp"
+            android:alpha="1"
+            android:layout_height="45dp"
+            android:layout_width="45dp"
+            android:background="@null" />
+
+        <ImageButton
+            app:srcCompat="@drawable/youtube"
+            android:id="@+id/btnYt"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="155dp"
+            android:alpha="1"
+            android:layout_height="45dp"
+            android:layout_width="45dp"
+            android:layout_weight="1.45"
+            android:background="@null"
+            android:padding="3dp" />
+
+        <ImageButton
+            app:srcCompat="@drawable/instagram"
+            android:id="@+id/btnInsta"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="208dp"
+            android:alpha="1"
+            android:layout_height="45dp"
+            android:layout_width="45dp"
+            android:layout_weight="1.45"
+            android:background="@null"
+            android:padding="3dp" />
+
+        <ImageButton
+            app:srcCompat="@drawable/facebook"
+            android:id="@+id/btnFB"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="258dp"
+            android:alpha="1"
+            android:layout_height="45dp"
+            android:layout_width="45dp"
+            android:layout_weight="1.45"
+            android:background="@null"
+            android:padding="3dp" />
+
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:weightSum="0"
+        android:layout_height="77dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/color3"
+            android:layout_weight="0.93">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:background="@color/colorPrimaryDark"
+                android:weightSum="1"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:paddingTop="8dp"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:paddingBottom="8dp">
+
+                <TextView
+                    android:text="@string/app_name_text_2x"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textTitle"
+                    android:layout_gravity="center_vertical|center_horizontal|start"
+                    android:textStyle="normal|bold"
+                    android:singleLine="true"
+                    android:ellipsize="marquee"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:scrollHorizontally="true"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:padding="7dp"
+                android:background="@color/color2"
+                android:layout_height="40dp">
+
+                <ImageButton
+                    android:id="@+id/imageBtnMute"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/wi_mute"
+                    android:layout_height="25dp"
+                    android:layout_width="25dp" />
+
+                <SeekBar
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+
+                    android:layout_weight="1"
+                    android:id="@+id/seekBar"
+                    android:max="100"
+                    android:progress="50"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical" />
+
+                <ImageButton
+                    android:id="@+id/imageBtnSon"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center_vertical"
+                    android:elevation="0dp"
+                    android:background="@drawable/wi_son"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

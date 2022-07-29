@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">WinWeb Radio</string>
+    <string name="app_name_text">Vous écoutez maintenant WIN WEB RADIO</string>
+    <string name="app_name_text_2x">         Vous écoutez maintenant WIN WEB RADIO    |    Jeune Esprit!</string>
+    <string name="app_name_notification">Vous écoutez maintenant</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="notification_open">open</string>
+    <string name="notification_stop">Stop Linsnn</string>
+
+    <string name="menu_accueil">Accueil</string>
+    <string name="menu_emission">Emission</string>
+    <string name="menu_agenda">Agenda</string>
+    <string name="menu_chat">Chat</string>
+    <string name="menu_rate">Avis</string>
+    <string name="menu_partage">Partage</string>
+    <string name="menu_propos">À Propos</string>
+
+    <string name="menu_accueil_up">ACCUEIL</string>
+    <string name="menu_emission_up">EMISSION</string>
+    <string name="menu_agenda_up">AGENDA - (ᵴoon)</string>
+    <string name="menu_chat_up">CHAT</string>
+    <string name="menu_rate_up">AVIS</string>
+    <string name="menu_partage_up">PARTAGE</string>
+    <string name="menu_propos_up">À PROPOS</string>
+
+    <string name="menu_chat_online">CHAT Online</string>
+    <string name="action_close">close</string>
+
+    <string name="text_partage">Téléchage Application WinWeb Radio </string>
+
+
+</resources>
